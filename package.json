@@ -1,0 +1,24 @@
+{
+	"name": "pgnplay",
+	"version": "1.0.0",
+	"browserslist": "> 0.5%, last 2 versions, not dead",
+	"source": "src/index.html",
+	"scripts": {
+		"start": "parcel",
+		"build": "parcel build --public-url ./"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"autoprefixer": "^10.4.2",
+		"parcel": "^2.2.1"
+	},
+	"targets": {
+		"default": {
+			"distDir": "./docs"
+		}
+	},
+	"dependencies": {
+		"@chess-fu/fen-parser": "^1.1.3",
+		"cm-pgn": "^2.1.8"
+	}
+}
